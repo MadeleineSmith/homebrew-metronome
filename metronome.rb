@@ -14,7 +14,6 @@ class Metronome < Formula
   def install
       ENV["GOPATH"] = buildpath
       ENV["GO111MODULE"] = "on"
-      ENV["GOFLAGS"] = "-mod=vendor"
       ENV["PATH"] = "#{ENV["PATH"]}:#{buildpath}/bin"
       (buildpath/"src/github.com/MadeleineSmith/metronome").install buildpath.children
       cd "src/github.com/MadeleineSmith/metronome" do
