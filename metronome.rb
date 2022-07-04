@@ -5,7 +5,7 @@ class Metronome < Formula
   desc "A command-line metronome which sounds out the beats 🥁"
   homepage "https://github.com/MadeleineSmith/metronome"
   url "https://github.com/MadeleineSmith/metronome/archive/refs/tags/v1.1.0.tar.gz"
-  sha256 "0190dc7fcd6f628303f28e36c95f8f44554b51e5"
+  sha256 "23b6434c14e1542c61139bafe51229ac2f339a1c661b7b8e4761a70112d0ca07"
   license "MIT"
 
   depends_on "go"
